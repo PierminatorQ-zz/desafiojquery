@@ -1,0 +1,60 @@
+/*estilos alerta*/
+
+.contenedor{
+  display: flex;
+  flex-direction: column; 
+  margin: 50px 0;
+}
+
+#alert{
+  height: 30px;
+  width: 200px;
+}
+
+#posalert{
+  
+  display: flex;
+  justify-content: space-between  ;
+  margin-top: 20px;
+  width:50%;
+  background-color:lemonchiffon;
+  border: 1px solid moccasin;
+  display:none;
+
+  button {
+    height: 30px;
+    width: 30px;
+    background-color: peachpuff;
+    border:none;
+    color:darkkhaki;
+
+    &:hover{
+      background-color:gold;
+      color:white;
+    }
+    
+  }
+  .texto{
+    margin-left:10px;
+  }
+}
+
+#toggle{
+  height: 30px;
+  width: 200px;
+  background-color:mediumpurple;
+}
+#caja{
+  width: 50%;
+  margin: 40px 0;
+  background-color:lavender;
+  border: 1px solid indigo;
+  display:none;
+
+  .texto2{
+    color:orchid;
+  }
+}
+
+/*estilos toggle*/
+
