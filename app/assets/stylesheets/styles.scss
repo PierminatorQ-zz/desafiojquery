@@ -56,5 +56,42 @@
   }
 }
 
-/*estilos toggle*/
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom:200px;
+  
+}
+
+
+
+.accordion{
+  display:flex;
+  flex-direction: column;
+  margin:20px 100px;
+  
+
+  .card{
+    border:1px solid lightgray;
+    width: 500px;
+    color: lightslategray;
+
+    .titles{
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      background-color:gainsboro;
+      height:60px;
+    }
+
+    .contents{
+      background-color:white;
+      display: none;
+
+    }
+  }
+
+
+}
 
